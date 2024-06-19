@@ -1,0 +1,106 @@
+﻿  Player.cpp
+C:\VS Projects\Zombie Arena\Player.cpp(6,13): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\VS Projects\Zombie Arena\Player.cpp(7,16): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\VS Projects\Zombie Arena\Player.cpp(20,29): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\VS Projects\Zombie Arena\Player.cpp(21,30): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\VS Projects\Zombie Arena\Player.cpp(40,13): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\VS Projects\Zombie Arena\Player.cpp(41,16): warning C4244: '=': conversion from 'const float' to 'int', possible loss of data
+C:\VS Projects\Zombie Arena\Player.cpp(154,32): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\VS Projects\Zombie Arena\Player.cpp(159,31): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\VS Projects\Zombie Arena\Player.cpp(164,33): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\VS Projects\Zombie Arena\Player.cpp(169,30): warning C4244: '=': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\VS Projects\Zombie Arena\Player.cpp(173,14): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\VS Projects\Zombie Arena\Player.cpp(181,26): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+C:\VS Projects\Zombie Arena\Player.cpp(187,31): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  Zombie Arena.cpp
+C:\VS Projects\Zombie Arena\Zombie Arena.cpp(18,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\VS Projects\Zombie Arena\Zombie Arena.cpp(19,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\VS Projects\Zombie Arena\Zombie Arena.cpp(21,39): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\VS Projects\Zombie Arena\Zombie Arena.cpp(21,25): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Generating Code...
+Player.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Time::Time(void)" (__imp_??0Time@sf@@QEAA@XZ) referenced in function "public: __cdecl Player::Player(void)" (??0Player@@QEAA@XZ)
+Zombie Arena.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Time::Time(void)" (__imp_??0Time@sf@@QEAA@XZ)
+Player.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: int __cdecl sf::Time::asMilliseconds(void)const " (__imp_?asMilliseconds@Time@sf@@QEBAHXZ) referenced in function "public: bool __cdecl Player::hit(class sf::Time)" (?hit@Player@@QEAA_NVTime@sf@@@Z)
+Player.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setPosition(class sf::Vector2<float> const &)" (__imp_?setPosition@Transformable@sf@@QEAAXAEBV?$Vector2@M@2@@Z) referenced in function "public: void __cdecl Player::update(float,class sf::Vector2<int>)" (?update@Player@@QEAAXMV?$Vector2@H@sf@@@Z)
+Player.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setRotation(float)" (__imp_?setRotation@Transformable@sf@@QEAAXM@Z) referenced in function "public: void __cdecl Player::update(float,class sf::Vector2<int>)" (?update@Player@@QEAAXMV?$Vector2@H@sf@@@Z)
+Player.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Transformable::setOrigin(float,float)" (__imp_?setOrigin@Transformable@sf@@QEAAXMM@Z) referenced in function "public: __cdecl Player::Player(void)" (??0Player@@QEAA@XZ)
+Player.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: float __cdecl sf::Transformable::getRotation(void)const " (__imp_?getRotation@Transformable@sf@@QEBAMXZ) referenced in function "public: float __cdecl Player::getRotation(void)" (?getRotation@Player@@QEAAMXZ)
+Player.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Texture::Texture(void)" (__imp_??0Texture@sf@@QEAA@XZ) referenced in function "public: __cdecl Player::Player(void)" (??0Player@@QEAA@XZ)
+Player.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Texture::~Texture(void)" (__imp_??1Texture@sf@@QEAA@XZ) referenced in function "int `public: __cdecl Player::Player(void)'::`1'::dtor$1" (?dtor$1@?0???0Player@@QEAA@XZ@4HA)
+Zombie Arena.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Texture::~Texture(void)" (__imp_??1Texture@sf@@QEAA@XZ)
+Player.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __cdecl sf::Texture::loadFromFile(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class sf::Rect<int> const &)" (__imp_?loadFromFile@Texture@sf@@QEAA_NAEBV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@AEBV?$Rect@H@2@@Z) referenced in function "public: __cdecl Player::Player(void)" (??0Player@@QEAA@XZ)
+Player.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Sprite::Sprite(void)" (__imp_??0Sprite@sf@@QEAA@XZ) referenced in function "public: __cdecl Player::Player(void)" (??0Player@@QEAA@XZ)
+Player.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Sprite::setTexture(class sf::Texture const &,bool)" (__imp_?setTexture@Sprite@sf@@QEAAXAEBVTexture@2@_N@Z) referenced in function "public: __cdecl Player::Player(void)" (??0Player@@QEAA@XZ)
+Player.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class sf::Rect<float> __cdecl sf::Sprite::getGlobalBounds(void)const " (__imp_?getGlobalBounds@Sprite@sf@@QEBA?AV?$Rect@M@2@XZ) referenced in function "public: class sf::Rect<float> __cdecl Player::getPosition(void)" (?getPosition@Player@@QEAA?AV?$Rect@M@sf@@XZ)
+Player.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::Sprite::~Sprite(void)" (__imp_??1Sprite@sf@@UEAA@XZ) referenced in function "int `public: __cdecl Player::Player(void)'::`1'::dtor$0" (?dtor$0@?0???0Player@@QEAA@XZ@4HA)
+Zombie Arena.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::Sprite::~Sprite(void)" (__imp_??1Sprite@sf@@UEAA@XZ)
+Player.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Sprite::Sprite(class sf::Sprite const &)" (__imp_??0Sprite@sf@@QEAA@AEBV01@@Z) referenced in function "public: class sf::Sprite __cdecl Player::getSprite(void)" (?getSprite@Player@@QEAA?AVSprite@sf@@XZ)
+Zombie Arena.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: float __cdecl sf::Time::asSeconds(void)const " (__imp_?asSeconds@Time@sf@@QEBAMXZ) referenced in function main
+Zombie Arena.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) class sf::Time & __cdecl sf::operator+=(class sf::Time &,class sf::Time)" (__imp_??Ysf@@YAAEAVTime@0@AEAV10@V10@@Z) referenced in function main
+Zombie Arena.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Clock::Clock(void)" (__imp_??0Clock@sf@@QEAA@XZ) referenced in function main
+Zombie Arena.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class sf::Time __cdecl sf::Clock::restart(void)" (__imp_?restart@Clock@sf@@QEAA?AVTime@2@XZ) referenced in function main
+Zombie Arena.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::String(char const *,class std::locale const &)" (__imp_??0String@sf@@QEAA@PEBDAEBVlocale@std@@@Z) referenced in function main
+Zombie Arena.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::String::~String(void)" (__imp_??1String@sf@@QEAA@XZ) referenced in function main
+Zombie Arena.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static bool __cdecl sf::Keyboard::isKeyPressed(enum sf::Keyboard::Key)" (__imp_?isKeyPressed@Keyboard@sf@@SA_NW4Key@12@@Z) referenced in function main
+Zombie Arena.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class sf::Vector2<int> __cdecl sf::Mouse::getPosition(void)" (__imp_?getPosition@Mouse@sf@@SA?AV?$Vector2@H@2@XZ) referenced in function main
+Zombie Arena.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::VideoMode::VideoMode(unsigned int,unsigned int,unsigned int)" (__imp_??0VideoMode@sf@@QEAA@III@Z) referenced in function main
+Zombie Arena.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class sf::VideoMode __cdecl sf::VideoMode::getDesktopMode(void)" (__imp_?getDesktopMode@VideoMode@sf@@SA?AV12@XZ) referenced in function main
+Zombie Arena.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __cdecl sf::WindowBase::isOpen(void)const " (__imp_?isOpen@WindowBase@sf@@QEBA_NXZ) referenced in function main
+Zombie Arena.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: bool __cdecl sf::WindowBase::pollEvent(class sf::Event &)" (__imp_?pollEvent@WindowBase@sf@@QEAA_NAEAVEvent@2@@Z) referenced in function main
+Zombie Arena.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual void __cdecl sf::Window::close(void)" (__imp_?close@Window@sf@@UEAAXXZ) referenced in function main
+Zombie Arena.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::Window::display(void)" (__imp_?display@Window@sf@@QEAAXXZ) referenced in function main
+Zombie Arena.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::Color::Color(unsigned char,unsigned char,unsigned char,unsigned char)" (__imp_??0Color@sf@@QEAA@EEEE@Z) referenced in function main
+Zombie Arena.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::View::View(class sf::Rect<float> const &)" (__imp_??0View@sf@@QEAA@AEBV?$Rect@M@1@@Z) referenced in function main
+Zombie Arena.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::clear(class sf::Color const &)" (__imp_?clear@RenderTarget@sf@@QEAAXAEBVColor@2@@Z) referenced in function main
+Zombie Arena.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::setView(class sf::View const &)" (__imp_?setView@RenderTarget@sf@@QEAAXAEBVView@2@@Z) referenced in function main
+Zombie Arena.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: class sf::Vector2<float> __cdecl sf::RenderTarget::mapPixelToCoords(class sf::Vector2<int> const &,class sf::View const &)const " (__imp_?mapPixelToCoords@RenderTarget@sf@@QEBA?AV?$Vector2@M@2@AEBV?$Vector2@H@2@AEBVView@2@@Z) referenced in function main
+Zombie Arena.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: void __cdecl sf::RenderTarget::draw(class sf::Drawable const &,class sf::RenderStates const &)" (__imp_?draw@RenderTarget@sf@@QEAAXAEBVDrawable@2@AEBVRenderStates@2@@Z) referenced in function main
+Zombie Arena.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: __cdecl sf::RenderWindow::RenderWindow(class sf::VideoMode,class sf::String const &,unsigned int,struct sf::ContextSettings const &)" (__imp_??0RenderWindow@sf@@QEAA@VVideoMode@1@AEBVString@1@IAEBUContextSettings@1@@Z) referenced in function main
+Zombie Arena.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: virtual __cdecl sf::RenderWindow::~RenderWindow(void)" (__imp_??1RenderWindow@sf@@UEAA@XZ) referenced in function main
+Zombie Arena.obj : error LNK2019: unresolved external symbol "__declspec(dllimport) public: static class sf::RenderStates const sf::RenderStates::Default" (__imp_?Default@RenderStates@sf@@2V12@B) referenced in function main
+C:\SFML\lib\sfml-graphics-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\SFML\lib\sfml-window-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\SFML\lib\sfml-system-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\SFML\lib\sfml-network-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\SFML\lib\sfml-audio-d.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\VS Projects\Zombie Arena\x64\Debug\Zombie Arena.exe : fatal error LNK1120: 37 unresolved externals
