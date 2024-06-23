@@ -1,22 +1,84 @@
-﻿  Zombie Arena.cpp
-C:\VS Projects\Zombie Arena\Zombie Arena.cpp(18,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
+﻿  CreateBackground.cpp
+C:\VS Projects\Zombie Arena\CreateBackground.cpp(30,64): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
           with
           [
               T=float
           ]
+C:\VS Projects\Zombie Arena\CreateBackground.cpp(30,49): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\VS Projects\Zombie Arena\CreateBackground.cpp(32,78): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\VS Projects\Zombie Arena\CreateBackground.cpp(32,63): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\VS Projects\Zombie Arena\CreateBackground.cpp(34,92): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\VS Projects\Zombie Arena\CreateBackground.cpp(34,63): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\VS Projects\Zombie Arena\CreateBackground.cpp(36,78): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\VS Projects\Zombie Arena\CreateBackground.cpp(36,49): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\VS Projects\Zombie Arena\CreateBackground.cpp(58,54): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\VS Projects\Zombie Arena\CreateBackground.cpp(60,62): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\VS Projects\Zombie Arena\CreateBackground.cpp(62,70): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+C:\VS Projects\Zombie Arena\CreateBackground.cpp(64,62): warning C4244: 'argument': conversion from 'int' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Zombie Arena.cpp
 C:\VS Projects\Zombie Arena\Zombie Arena.cpp(19,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\VS Projects\Zombie Arena\Zombie Arena.cpp(21,39): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+C:\VS Projects\Zombie Arena\Zombie Arena.cpp(20,44): warning C4244: '=': conversion from 'unsigned int' to 'T', possible loss of data
           with
           [
               T=float
           ]
-C:\VS Projects\Zombie Arena\Zombie Arena.cpp(21,25): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+C:\VS Projects\Zombie Arena\Zombie Arena.cpp(22,39): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
           with
           [
               T=float
           ]
+C:\VS Projects\Zombie Arena\Zombie Arena.cpp(22,25): warning C4244: 'argument': conversion from 'T' to 'unsigned int', possible loss of data
+          with
+          [
+              T=float
+          ]
+  Generating Code...
   Zombie Arena.vcxproj -> C:\VS Projects\Zombie Arena\Debug\Zombie Arena.exe
